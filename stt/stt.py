@@ -17,3 +17,4 @@ class STT(ABC):
         """Stop the speech-to-text listening process."""
         pass
 
+
