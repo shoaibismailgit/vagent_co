@@ -116,3 +116,4 @@ class MyParticipantEventListener(ParticipantEventHandler):
             if stream.track.id in self.dummy_tracks:
                 self.dummy_tracks[stream.track.id].cancel()
                 del self.dummy_tracks[stream.track.id]
+
