@@ -104,4 +104,3 @@ class OpenAIIntelligence(Intelligence):
 
         # add response to history
         self.add_response(response_text)
-
