@@ -79,3 +79,4 @@ The core pipeline works as follows:
 
 
 *(Mentioned in the video but not strictly required by the base code: This architecture also supports integration with Vector Databases (Pinecone, Qdrant, Chroma DB) for Retrieval Augmented Generation (RAG) between the STT and LLM steps if you want the agent to reference specific documents or knowledge bases.)*
+
