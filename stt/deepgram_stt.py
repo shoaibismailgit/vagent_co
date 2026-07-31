@@ -267,4 +267,3 @@ class DeepgramSTT(STT):
             self.wpm = self.wpm * (1 - p_t) + wpm * p_t
             self.speed_coefficient = self.wpm / BASE_WPM
             logger.info(f"Set speed coefficient to {self.speed_coefficient}")
-
